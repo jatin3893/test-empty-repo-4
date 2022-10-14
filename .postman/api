@@ -14,7 +14,6 @@ files[] = {"id":"869033-5f97fe2c-79c6-410a-938f-617d69fc3c7d","path":"Rutvik Col
 rootDirectory = postman/schemas
 files[] = {"path":"Commit .yaml","metaData":{}}
 files[] = {"path":"index Copy.yaml","metaData":{}}
-files[] = {"path":"index.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
