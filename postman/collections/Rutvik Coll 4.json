@@ -22,19 +22,18 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
+					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId2",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
 						"spacecrafts",
-						":spacecraftId"
+						":spacecraftId2"
 					],
 					"variable": [
 						{
-							"key": "spacecraftId",
-							"value": "ipsum sed occaecat non",
-							"description": "(Required) The unique identifier of the spacecraft"
+							"key": "spacecraftId2",
+							"value": null
 						}
 					]
 				}
