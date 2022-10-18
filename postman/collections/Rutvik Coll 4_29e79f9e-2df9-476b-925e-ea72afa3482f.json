@@ -1,14 +1,15 @@
 {
 	"info": {
-		"_postman_id": "5f97fe2c-79c6-410a-938f-617d69fc3c7d",
+		"_postman_id": "f8423831-6775-4216-8afb-2db525057ee9",
 		"name": "Rutvik Coll 4",
 		"description": "Buy or rent spacecrafts",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "813121-f8423831-6775-4216-8afb-2db525057ee9"
 	},
 	"item": [
 		{
 			"name": "Read a spacecraft",
-			"id": "a6cd01c2-a0b8-4121-a8e0-cf1fbbb5cc42",
+			"id": "3dd3226d-0fc0-440b-9146-ea17fc7d94fa",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -31,7 +32,6 @@
 					],
 					"variable": [
 						{
-							"id": "17bc9004-0e00-496d-adfc-d24f9531cc6b",
 							"key": "spacecraftId",
 							"value": "ipsum sed occaecat non",
 							"description": "(Required) The unique identifier of the spacecraft"
@@ -41,7 +41,7 @@
 			},
 			"response": [
 				{
-					"id": "db90f841-0eb5-45f5-bea2-2ae706ae7f53",
+					"id": "b0e52839-9721-4505-bdec-4df1ea8f1457",
 					"name": "The spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -73,6 +73,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -84,7 +85,7 @@
 					"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"enim officia\",\n  \"type\": \"station\",\n  \"description\": \"irure \"\n}"
 				},
 				{
-					"id": "748fbb67-e938-435c-9177-43f46d14b0ff",
+					"id": "4a918143-c420-49d7-aa51-6f500db9d495",
 					"name": "No spacecraft found for the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -116,6 +117,7 @@
 					"status": "Not Found",
 					"code": 404,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -127,7 +129,7 @@
 					"body": "{\n  \"message\": \"cupidatat incididunt commodo nulla\"\n}"
 				},
 				{
-					"id": "2e87fd08-bda5-411b-964c-eed7724f42e9",
+					"id": "40ae85c6-2d68-4bf6-9e57-d15016360b98",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -159,6 +161,7 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
