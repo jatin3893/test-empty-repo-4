@@ -1,0 +1,295 @@
+{
+	"info": {
+		"_postman_id": "87f8196e-fc6f-409f-a787-202757d90e50",
+		"name": "Export test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "869033-87f8196e-fc6f-409f-a787-202757d90e50"
+	},
+	"item": [
+		{
+			"name": "https://google.com",
+			"id": "986a3035-b3c7-4130-b842-6c1be0354ff0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "header",
+						"value": "test"
+					},
+					{
+						"key": "header2",
+						"value": "test"
+					},
+					{
+						"key": "header3",
+						"value": "test2",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://google.com/:id/:id2/:id3?HELLO=WORLD&hello2=world&something extra=hello",
+					"protocol": "https",
+					"host": [
+						"google",
+						"com"
+					],
+					"path": [
+						":id",
+						":id2",
+						":id3"
+					],
+					"query": [
+						{
+							"key": "HELLO",
+							"value": "WORLD",
+							"description": "DESCRIPTION"
+						},
+						{
+							"key": "hello2",
+							"value": "world",
+							"description": "wassup"
+						},
+						{
+							"key": "unused key",
+							"value": "test",
+							"disabled": true
+						},
+						{
+							"key": "something extra",
+							"value": "hello",
+							"description": "akaldkada"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "new here"
+						},
+						{
+							"key": "id2",
+							"value": "value 3"
+						},
+						{
+							"key": "id3",
+							"value": "value 4"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "43b805e4-8548-4774-8678-c760f66882a1",
+					"name": "https://google.com",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "header",
+								"value": "test"
+							},
+							{
+								"key": "header2",
+								"value": "test"
+							},
+							{
+								"key": "header3",
+								"value": "test2",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://google.com/:id/:id2/:id3?HELLO=WORLD&hello2=world&something extra=hello",
+							"protocol": "https",
+							"host": [
+								"google",
+								"com"
+							],
+							"path": [
+								":id",
+								":id2",
+								":id3"
+							],
+							"query": [
+								{
+									"key": "HELLO",
+									"value": "WORLD",
+									"description": "DESCRIPTION"
+								},
+								{
+									"key": "hello2",
+									"value": "world",
+									"description": "wassup"
+								},
+								{
+									"key": "unused key",
+									"value": "test",
+									"disabled": true
+								},
+								{
+									"key": "something extra",
+									"value": "hello",
+									"description": "akaldkada"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "new here"
+								},
+								{
+									"key": "id2",
+									"value": "value 3"
+								},
+								{
+									"key": "id3",
+									"value": "value 4"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8",
+							"uuid": "22d75ce6-ba98-47be-a24f-cb9a9a180ec6"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer",
+							"uuid": "07e8ab75-b626-4d0e-b2fa-8f2713595215"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1591",
+							"uuid": "f935159f-3c50-45d7-b68d-925f08fc3d48"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 08 May 2024 09:08:07 GMT",
+							"uuid": "2c247aae-016c-4bc3-b6c7-07ee430ccf13"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+							"uuid": "aa3b6ebf-e782-4e68-b277-bb87d9f94cdc"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=en>\n    <meta charset=utf-8>\n    <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n    <title>Error 404 (Not Found)!!1</title>\n    <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n    <a href=//www.google.com/>\n    <span id=logo aria-label=Google></span>\n</a>\n<p>\n    <b>404.</b>\n    <ins>That’s an error.</ins>\n    <p>The requested URL \n        <code>/new%20here/value%203/value%204</code> was not found on this server.\n        <ins>That’s all we know.</ins>"
+				},
+				{
+					"id": "4e0cb9cb-1574-4684-81e7-509dd4b71118",
+					"name": "https://google.com",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "header",
+								"value": "test"
+							},
+							{
+								"key": "header2",
+								"value": "test"
+							},
+							{
+								"key": "header3",
+								"value": "test2",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://google.com/:id/:id2/:id3",
+							"protocol": "https",
+							"host": [
+								"google",
+								"com"
+							],
+							"path": [
+								":id",
+								":id2",
+								":id3"
+							],
+							"query": [
+								{
+									"key": "HELLO",
+									"value": "WORLD",
+									"description": "DESCRIPTION",
+									"disabled": true
+								},
+								{
+									"key": "hello2",
+									"value": "world",
+									"description": "wassup",
+									"disabled": true
+								},
+								{
+									"key": "unused key",
+									"value": "test",
+									"disabled": true
+								},
+								{
+									"key": "something extra",
+									"value": "hello",
+									"description": "akaldkada",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "new here"
+								},
+								{
+									"key": "id2",
+									"value": "value 3"
+								},
+								{
+									"key": "id3",
+									"value": "value 4"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8",
+							"uuid": "14d69a97-c60c-4f79-97d4-adb2946d8ac8"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer",
+							"uuid": "f8d3ac05-ab27-491d-be27-a43fa05a9393"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1591",
+							"uuid": "e1821783-fc7c-4b9c-a196-08aec24309ed"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 08 May 2024 09:08:23 GMT",
+							"uuid": "37e6d2f1-24bb-4c14-b700-6a907729e25a"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+							"uuid": "5ebe705a-a2fb-49ef-ba79-7d7e578b712b"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=en>\n    <meta charset=utf-8>\n    <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n    <title>Error 404 (Not Found)!!1</title>\n    <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n    <a href=//www.google.com/>\n    <span id=logo aria-label=Google></span>\n</a>\n<p>\n    <b>404.</b>\n    <ins>That’s an error.</ins>\n    <p>The requested URL \n        <code>/new%20here/value%203/value%204</code> was not found on this server.\n        <ins>That’s all we know.</ins>"
+				}
+			]
+		}
+	]
+}
